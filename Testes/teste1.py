@@ -2,7 +2,7 @@
 
 acessar = (input('quer entrar na calculadora [s/n]: '))
 while acessar == 's':
-    quantidade = (input('com quantos algaritimos você quer a sua conta ? :'))
+    quantidade = (input('com quantos algaritimos você quer a sua conta?(2 ou 3) :'))
 
 
     if quantidade == "2":
