@@ -72,7 +72,7 @@ while acessar == 's':
             
             if erro(result2) == False:
                 print('      ')
-                conta3(n1,O1,n2,O2,)
+                conta3(n1, O1 , n2, O2, n3)
                 print(f"o resultado é: {result2}")
     print('      ')
     acessar = (input('quer continuar [s/n]: '))
