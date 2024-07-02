@@ -4,7 +4,7 @@ acessar = (input('quer entrar na calculadora [s/n]: '))
 while acessar == 's':
     quantidade = (input('com quantos algaritimos você quer a sua conta?(2 ou 3) :'))
 
-
+    
     if quantidade == "2":
         n1 = float(input("Primeiro digito: ")) 
         O1 = input("Operadores Aritméticos (+,-,*,/): ") 
@@ -30,13 +30,16 @@ while acessar == 's':
         n1 = float(input("Primeiro digito: ")) 
         O1 = input("Operadores Aritméticos (+,-,*,/): ") 
         n2 = float(input("Segundo digito: ")) 
-
+        
         match O1:
             case "+":
                 nr1 = n1 + n2
                 O2 = input("segunda Operadores Aritméticos (+,-,*,/): ") 
                 n3 = float(input("terceiro digito: ")) 
+            
                 match O2:
+                    
+
                     case "+":
                         print("o resultado é:" , nr1 + n3) 
                     case "-":
@@ -105,3 +108,5 @@ while acessar == 's':
     acessar = (input('quer continuar [s/n]: '))
 else: 
     print('muito obrigado por acessar')
+
+
