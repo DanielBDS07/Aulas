@@ -1,5 +1,8 @@
 import requests
 
+class MeuErro(Exception):
+    def __init__(self, mensagem):
+        self.mensagem = mensagem
 
 # Credenciais fornecidas
 print('   ')
@@ -19,8 +22,12 @@ login_data = {
     'password': password
 }
 
-# Faz a requisição POST para fazer login
-login_response = requests.post(login_url, json=login_data)
+try:
+    login_response = requests.post(login_url, json=login_data)
+
+except MeuErro as e:
+    print('Ocorreu um erro, confira se as informações estão corretas') 
+
 
 print(f'Login Status Code: {login_response.status_code}')
 print(f'Login Response: {login_response.json()}')
