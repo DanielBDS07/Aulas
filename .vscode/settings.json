@@ -1,3 +1,7 @@
 {
-    "doki.sticker.css": "z-index:100;background-position:100% 97%"
+    "doki.sticker.css": "z-index:100;background-position:100% 97%",
+    "doki.background.path": "",
+    "doki.background.enabled": false,
+    "doki.wallpaper.enabled": true,
+    "doki.sticker.path": "C:\\Users\\User\\Downloads/bah.gif"
 }
