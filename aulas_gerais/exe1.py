@@ -13,7 +13,7 @@ print(lista)
 print(lista[0])
 
 tamanho_lista = len(lista)
-
+lista = []
 print(tamanho_lista)
 
 nome = str(input ("qual é o seu nome?: "))
